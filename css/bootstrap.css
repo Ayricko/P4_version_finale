@@ -6,6 +6,19 @@
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
+/**************************** modification apportées ****************************/
+
+.keywords{
+    color:#cccccc;
+    font-size:1px;
+}
+
+.intro p{
+    font-size: 1.1em;
+}
+
+
+/**************************** suite  ****************************/
 html {
     font-family: sans-serif;
     -webkit-text-size-adjust: 100%;
@@ -157,7 +170,7 @@ html input[type=button],
 input[type=reset],
 input[type=submit] {
     -webkit-appearance: button;
-    cursor: pointer
+    cursor: pointer;
 }
 
 button[disabled],
@@ -1390,8 +1403,8 @@ html {
 
 body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.42857143;
+    font-size: 17px;
+    line-height: 2;
     color: #333;
     background-color: #fff
 }
@@ -2012,7 +2025,12 @@ pre code {
 
 .row {
     margin-right: -15px;
-    margin-left: -15px
+    margin-left: -15px;
+}
+
+.col-sm-4 a:hover{
+    background-color: #ddbc83;
+    transition: all .3s;
 }
 
 .col-lg-1,
@@ -7682,7 +7700,7 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
+    background-color: #0009;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
     border-radius: 10px

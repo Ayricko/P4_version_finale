@@ -3,7 +3,7 @@ body {
     padding: 0;
     background: #FFF;
     overflow-x: hidden;
-    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothin antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
@@ -31,7 +31,6 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -133,7 +132,8 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgba(255, 255, 255, 0.842);
+    transition: all 0.3s;
 }
 
 .d-bloc .a-btn:hover,
@@ -150,7 +150,7 @@ a:hover {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
+    color: #ddbc83;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -362,6 +362,16 @@ a:hover {
     z-index: 2;
 }
 
+.site-navigation{
+    background: linear-gradient(to top, #F3976C 0%, #F3976C 3px, transparent 1.51px) no-repeat;
+    background-size: 0 100%;
+    transition: all .5s;
+}
+
+.site-navigation:hover{
+    background-size: 100% 100%;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -476,11 +486,11 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 80px!important;
 }
 
 .icon-lg {
-    font-size: 60px!important;
+    font-size: 80px!important;
 }
 
 .sm-shadow {
@@ -677,7 +687,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 17px;
 }
 
 .tight-width-whitespace {
@@ -700,7 +710,6 @@ p {
 }
 
 .social {
-    max-width: 400px;
     margin: auto auto auto auto;
 }
 
@@ -740,7 +749,7 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    margin: 24px auto 24px auto;
 }
 
 .portfolio-row {
@@ -775,7 +784,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
@@ -784,8 +793,8 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #333333!important;
+    color: #F3976C!important;
 }
 
 .ltc-white {
@@ -822,14 +831,11 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
-    .bloc {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
     .bloc-tile-3.full-width-bloc .container,
