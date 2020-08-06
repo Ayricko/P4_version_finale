@@ -1531,8 +1531,6 @@ h6 {
 .h2 small,
 .h3 .small,
 .h3 small,
-.h4 .small,
-.h4 small,
 .h5 .small,
 .h5 small,
 .h6 .small,
@@ -1543,8 +1541,6 @@ h2 .small,
 h2 small,
 h3 .small,
 h3 small,
-h4 .small,
-h4 small,
 h5 .small,
 h5 small,
 h6 .small,
@@ -1617,11 +1613,6 @@ h2 {
 .h3,
 h3 {
     font-size: 24px
-}
-
-.h4,
-h4 {
-    font-size: 18px
 }
 
 .h5,
@@ -2026,11 +2017,6 @@ pre code {
 .row {
     margin-right: -15px;
     margin-left: -15px;
-}
-
-.col-sm-4 a:hover{
-    background-color: #ddbc83;
-    transition: all .3s;
 }
 
 .col-lg-1,

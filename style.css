@@ -99,7 +99,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: #373737;
 }
 
 .d-bloc button:hover {
@@ -128,11 +128,10 @@ a:hover {
 .d-bloc h1 a,
 .d-bloc h2 a,
 .d-bloc h3 a,
-.d-bloc h4 a,
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, 0.842);
+    color: #373737;
     transition: all 0.3s;
 }
 
@@ -146,11 +145,10 @@ a:hover {
 .d-bloc h1 a:hover,
 .d-bloc h2 a:hover,
 .d-bloc h3 a:hover,
-.d-bloc h4 a:hover,
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-    color: #ddbc83;
+    color: #ffd284;
 }
 
 .d-bloc .navbar-toggle .icon-bar {
@@ -227,7 +225,6 @@ a:hover {
 .l-bloc h1 a,
 .l-bloc h2 a,
 .l-bloc h3 a,
-.l-bloc h4 a,
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
@@ -245,7 +242,6 @@ a:hover {
 .l-bloc h1 a:hover,
 .l-bloc h2 a:hover,
 .l-bloc h3 a:hover,
-.l-bloc h4 a:hover,
 .l-bloc h5 a:hover,
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
@@ -652,7 +648,6 @@ a[data-lightbox]:hover img {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6,
 p,
@@ -661,7 +656,13 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #373737!important;
+        transition: all .3s;
+}
+
+.col-sm-4 a:hover{
+    background-color: #ffd284;
+
 }
 
 .container {
@@ -710,7 +711,7 @@ p {
 }
 
 .social {
-    margin: auto auto auto auto;
+    margin: 30px auto 30px auto;
 }
 
 h2 {
@@ -735,17 +736,24 @@ h1 {
     color: #333333!important;
 }
 
-h4 {
-    color: #333333!important;
-}
-
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: white!important;
+}
+
+.texte_blanc{
+    color: #373737;
+    text-align: center;
+}
+
+.texte_blanc2{
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
 }
 
 .portfolio-thumb {
@@ -773,10 +781,6 @@ h4 {
 
 .bgc-white {
     background-color: #FFFFFF;
-}
-
-.bgc-dark-slate-blue {
-    background-color: #364577;
 }
 
 .bgc-atomic-tangerine {
@@ -903,7 +907,6 @@ h4 {
     h1,
     h2,
     h3,
-    h4,
     h5,
     h6,
     p,
