@@ -875,9 +875,6 @@ h1 {
 }
 
 @media (max-width: 991px) {
-    .bg-banniere {
-        background-image: url("img/image-de-presentation-small.png");
-    }
     .container {
         width: 100%;
     }
